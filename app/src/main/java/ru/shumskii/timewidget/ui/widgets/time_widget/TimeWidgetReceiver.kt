@@ -15,10 +15,7 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class TimeWidgetReceiver : GlanceAppWidgetReceiver() {
 
-    override val glanceAppWidget by lazy { timeWidget }
-
-    @Inject
-    lateinit var timeWidget: TimeWidget
+    override val glanceAppWidget = TimeWidget()
 
     @Inject
     lateinit var timeTickBroadcastReceiverManager: TimeTickBroadcastReceiverManager

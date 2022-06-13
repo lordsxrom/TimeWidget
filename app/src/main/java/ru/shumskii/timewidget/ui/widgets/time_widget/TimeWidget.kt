@@ -14,14 +14,12 @@ import androidx.glance.state.PreferencesGlanceStateDefinition
 import ru.shumskii.timewidget.ui.components.time_view.TimeView
 import ru.shumskii.timewidget.ui.components.time_view.TimeViewStateFormatter
 import java.util.*
-import javax.inject.Inject
 
-class TimeWidget @Inject constructor() : GlanceAppWidget() {
+class TimeWidget : GlanceAppWidget() {
 
     override var stateDefinition = PreferencesGlanceStateDefinition
 
-    @Inject
-    lateinit var timeViewStateFormatter: TimeViewStateFormatter
+    private val timeViewStateFormatter = TimeViewStateFormatter()
 
     @Composable
     override fun Content() {
