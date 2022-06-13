@@ -20,13 +20,13 @@ sensitive to manual time and time zone changing.
 
 <details>
   <summary>Preview</summary>
-    ![Preview](images/1.png)
+    <img src="images/1.png">
 </details>
 <details>
   <summary>Small size</summary>
-    ![Small size](images/2.png)
+    <img src="images/2.png">
 </details>
 <details>
   <summary>Medium size</summary>
-    ![Medium size](images/3.png)
+    <img src="images/3.png">
 </details>
