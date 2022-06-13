@@ -1,10 +1,10 @@
-#TimeWidget App
+# TimeWidget App
 
-##Description
+## Description
 Time Widget application provides a simple time widget that corresponds to a system time. It is 
 sensitive to manual time and time zone changing.
 
-##Technologies
+## Technologies
 * Android SDK
 * Kotlin
 * Compose
@@ -14,7 +14,7 @@ sensitive to manual time and time zone changing.
 * Flow
 * Broadcast Receiver
 
-##Images
+## Images
 - Preview
 ![Preview](images/1.png)
 - Small size
