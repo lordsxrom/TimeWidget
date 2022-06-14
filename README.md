@@ -30,3 +30,22 @@ sensitive to manual time and time zone changing.
   <summary>Medium size</summary>
     <img src="images/3.png">
 </details>
+
+## Videos
+
+<details>
+  <summary>Creating</summary>
+    <img src="gifs/Creating.gif">
+</details>
+<details>
+  <summary>Resizing</summary>
+    <img src="gifs/Resizing.gif">
+</details>
+<details>
+  <summary>Change time and date</summary>
+    <img src="gifs/ChangeTimeDate.gif">
+</details>
+<details>
+  <summary>TimeZone</summary>
+    <img src="gifs/TimeZone.gif">
+</details>
